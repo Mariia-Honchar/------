@@ -331,7 +331,13 @@ img {
   line-height: normal;
 }
 
-.Where {
+.where {
+  padding-top: 66px;
+  padding-bottom: 50px;
+}
+
+.where > .container{
+  display: flex;
 }
 
 .where-title {
@@ -341,10 +347,10 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
 
 .where-img {
+  margin-top: 33px;
 }
 
 .where-box {
@@ -356,6 +362,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 132px;
 }
 
 .where-box-link {
