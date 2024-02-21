@@ -1,0 +1,409 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding-left: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1181px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+
+.header {
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #b47b48;
+}
+
+/* hero */
+
+.hero {
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 51px;
+  padding-bottom: 35px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+
+  width: 561px;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  width: 561px;
+  margin-top: 22px;
+}
+
+.hero-btn {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  margin-top: 33px;
+
+  padding: 16px 33px 7px 34px;
+  border-radius: 17px;
+  background-color: #b47b48;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #b47b48;
+  background-color: #fff;
+}
+
+.hero-list {
+  display: flex;
+  gap: 96px;
+  margin-top: 125px;
+}
+
+.hero-list > .item {
+  max-width: 310px;
+  background-color: #272727;
+  padding: 51px 19px 44px 2px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-list > .item:hover,
+.header-list > .item:focus {
+  background-color: #ebad51;
+  cursor: pointer;
+}
+
+.hero-img {
+}
+
+.hero-prais {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.hero-name {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 10px;
+}
+
+.hero-bay {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background-color: #c85312;
+  padding: 10px 22px 5px 22px;
+  margin-top: 30px;
+}
+
+.hero-bay:hover,
+.hero-bay:focus {
+  color: #c85312;
+  background-color: #fff;
+}
+
+/* menu */
+
+.menu {
+  padding-top: 21px;
+  padding-bottom: 73px;
+  text-align: center;
+}
+
+.menu-title {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.menu-list {
+  margin-top: -7px;
+  margin-left: -198px;
+  justify-content: center;
+  padding-right: 0px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.menu-list > .item {
+  max-width: 328px;
+  flex-basis: calc((100% - 198px * 2) / 2);
+  margin-top: 7px;
+  margin-left: 198px;
+}
+
+.menu-img {
+}
+
+.menu-text {
+  color: #fff;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  width: 92.195px;
+  height: 31.756px;
+  flex-shrink: 0;
+}
+
+.menu-btn {
+  color: #fff;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background-color: #b47b48;
+  padding: 3px 43px 7px 43px;
+  margin-top: 9px;
+  border-radius: 17px;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #b47b48;
+  background-color: #fff;
+}
+
+/* quality */
+
+.quality {
+  padding-top: 90px;
+  padding-bottom: 47px;
+}
+
+.quality-title {
+  color: #fff;
+  font-family: "Italiana", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.quality-list {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.quality-img {
+}
+
+.quality-text {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #f2f2f24d;
+  padding: 32px 4px 52px 10px;
+}
+
+.quality-list > .item {
+  width: 100%;
+}
+
+/* advantage */
+
+.advantage {
+  background-image: linear-gradient(
+      89deg,
+      #000 0%,
+      rgba(3, 3, 3, 0) 100%,
+      rgba(3, 3, 3, 0) 100%
+    ),
+    url(/images/advantage.png);
+  background-repeat: no-repeat;
+  width: 1431px;
+  padding-top: 54px;
+  padding-bottom: 52px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-position: center;
+}
+
+.advantage-title {
+  color: #d9d9d9;
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 735px;
+}
+
+.advantage-list {
+  margin-top: 132px;
+  display: flex;
+  gap: 171px;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.advantage-img {
+}
+
+.advantage-text {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Where {
+}
+
+.where-title {
+  color: #fff;
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.where-img {
+}
+
+.where-box {
+}
+
+.where-box-title {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.where-box-link {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.where-box-time {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.footer {
+}
+
+.footer-title {
+  font-weight: 200;
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-title-box {
+  font-weight: 200;
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-text {
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer-text-on {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-copy-right {
+  font-weight: 100;
+  font-size: 20px;
+  color: #fff;
+}
