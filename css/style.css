@@ -338,6 +338,7 @@ img {
 
 .where > .container{
   display: flex;
+  gap: 70px;
 }
 
 .where-title {
@@ -354,6 +355,8 @@ img {
 }
 
 .where-box {
+  width: 225px;
+
 }
 
 .where-box-title {
@@ -362,7 +365,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 132px;
+  margin-bottom: 40px;
 }
 
 .where-box-link {
@@ -371,6 +374,13 @@ img {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 65px;
+  display: block;
+}
+
+.where-box-link:hover,
+.where-box-link:focus {
+  color: #b47b48;
 }
 
 .where-box-time {
@@ -383,12 +393,21 @@ img {
 }
 
 .footer {
+  padding-top: 40px;
+  padding-bottom: 44px;
+  position: relative;
+}
+
+.footer > .container{
+  display: flex;
+  gap: 76px;
 }
 
 .footer-title {
   font-weight: 200;
   font-size: 40px;
   color: #fff;
+  width: 322px;
 }
 
 .footer-title-box {
@@ -413,4 +432,7 @@ img {
   font-weight: 100;
   font-size: 20px;
   color: #fff;
+  position: absolute;
+  bottom: 0px;
+right: 750px;
 }
