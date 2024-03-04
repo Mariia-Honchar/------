@@ -44,6 +44,8 @@ img {
 }
 
 .header-list {
+  top: 55px;
+  position: absolute;
   display: flex;
   gap: 20px;
 }
@@ -71,7 +73,7 @@ img {
   width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 51px;
+  padding-top: 106px;
   padding-bottom: 35px;
 }
 
