@@ -208,6 +208,8 @@ img {
 }
 
 .menu-img {
+  width: 100%;
+  border: 1px solid gray;
 }
 
 .menu-text {
