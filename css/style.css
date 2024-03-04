@@ -289,7 +289,7 @@ img {
       rgba(3, 3, 3, 0) 100%,
       rgba(3, 3, 3, 0) 100%
     ),
-    url(/images/advantage.png);
+    url(../images/advantage.png);
   background-repeat: no-repeat;
   width: 1431px;
   padding-top: 54px;
